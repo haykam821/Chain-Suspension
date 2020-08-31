@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "chainsuspension",
+	"version": "${version}",
+	"name": "Chain Suspension",
+	"description": "Allows suspending gravity-affected blocks from chains.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Chain-Suspension#readme",
+		"issues": "https://github.com/haykam821/Chain-Suspension/issues"
+	},
+	"mixins": [
+		"chainsuspension.mixin.json"
+	],
+	"license": "MIT",
+	"icon": "assets/chainsuspension/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}
