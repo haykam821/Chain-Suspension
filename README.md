@@ -5,3 +5,17 @@
 [![Discord](https://img.shields.io/static/v1?style=popout&label=chat&message=discord&color=7289DA)](https://discord.gg/eXcffmW)
 
 Allows suspending gravity-affected blocks from chains.
+
+Chain Suspension requires the [Fabric modloader](https://fabricmc.net/use/) and [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api).
+
+## Installation
+
+1. Install [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api) if it is not installed.
+2. Download Chain Suspension from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/chain-suspension/files) or [GitHub](https://github.com/haykam821/Chain-Suspension/releases).
+3. Place the downloaded file in your `mods` folder.
+
+## Usage
+
+When this mod is installed, gravity-affected blocks such as sand, gravel, concrete powder, anvils, and dragon eggs will not fall when placed under a vertical chain.
+
+Any block in the `#chainsuspension:unsuspendable_blocks` tag will fall even if it is below a vertical chain.
