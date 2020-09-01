@@ -17,6 +17,9 @@
 	"license": "MIT",
 	"icon": "assets/chainsuspension/icon.png",
 	"depends": {
-		"fabricloader": ">=0.4.0"
+		"fabricloader": ">=0.4.0",
+		"fabric-api-base": "*",
+		"fabric-resource-loader-v0": "*",
+		"fabric-tag-extensions-v0": "*"
 	}
 }
