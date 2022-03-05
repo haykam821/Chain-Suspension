@@ -16,11 +16,18 @@ public class SuspensionHelper {
 	private static final Identifier UNSUSPENDABLE_BLOCKS_ID = new Identifier(MOD_ID, "unsuspendable_blocks");
 	private static final Tag<Block> UNSUSPENDABLE_BLOCKS = TagFactory.BLOCK.create(UNSUSPENDABLE_BLOCKS_ID);
 
+	private static final Identifier SUSPENSION_BLOCKS_ID = new Identifier(MOD_ID, "suspension_blocks");
+	private static final Tag<Block> SUSPENSION_BLOCKS = TagFactory.BLOCK.create(SUSPENSION_BLOCKS_ID);
+
 	public static boolean isSuspended(World world, BlockPos pos) {
 		BlockState state = world.getBlockState(pos);
 		if (state.isIn(UNSUSPENDABLE_BLOCKS)) return false;
 	
 		BlockState upState = world.getBlockState(pos.up());
-		return upState.getBlock() instanceof ChainBlock && upState.get(ChainBlock.AXIS) == Direction.Axis.Y;
+		if (upState.getBlock() instanceof ChainBlock) {
+			return upState.get(ChainBlock.AXIS) == Direction.Axis.Y;
+		}
+
+		return upState.isIn(SUSPENSION_BLOCKS);
 	}
 }

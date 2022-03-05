@@ -19,3 +19,5 @@ Chain Suspension requires the [Fabric modloader](https://fabricmc.net/use/) and 
 When this mod is installed, gravity-affected blocks such as sand, gravel, concrete powder, anvils, and dragon eggs will not fall when placed under a vertical chain.
 
 Any block in the `#chainsuspension:unsuspendable_blocks` tag will fall even if it is below a vertical chain.
+
+Any block in the `#chainsuspension:suspension_blocks` tag will prevent gravity-affected blocks from falling. Regardless of their presence in this tag, vertical chains will prevent gravity-affected blocks from falling.
