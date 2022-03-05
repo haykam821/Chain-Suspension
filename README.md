@@ -6,13 +6,12 @@
 
 Allows suspending gravity-affected blocks from chains.
 
-Chain Suspension requires the [Fabric modloader](https://fabricmc.net/use/) and [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api).
+Chain Suspension requires the [Fabric modloader](https://fabricmc.net/use/).
 
 ## Installation
 
-1. Install [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api) if it is not installed.
-2. Download Chain Suspension from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/chain-suspension/files) or [GitHub](https://github.com/haykam821/Chain-Suspension/releases).
-3. Place the downloaded file in your `mods` folder.
+1. Download Chain Suspension from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/chain-suspension/files) or [GitHub](https://github.com/haykam821/Chain-Suspension/releases).
+2. Place the downloaded file in your `mods` folder.
 
 ## Usage
 
