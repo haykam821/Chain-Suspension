@@ -1,7 +1,7 @@
 {
 	"required": true,
 	"package": "io.github.haykam821.chainsuspension.mixin",
-	"compatibilityLevel": "JAVA_8",
+	"compatibilityLevel": "JAVA_17",
 	"mixins": [
 		"FallingBlockMixin"
 	],
